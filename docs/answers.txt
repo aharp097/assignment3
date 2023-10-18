@@ -1,0 +1,33 @@
+Gitlab completion date: 10/18/23
+Github account creation date: (roughly) 10/02/22
+Repository:
+https://github.com/aharp097/assignment3
+1. $ git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        docs/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+2. 6, one by me and 5 by Esteban Parra. Retrieved w/ "git log".
+3. README.md was last modified September 25th by Esteban Parra. Retrieved w/ "git log -p"
+4. Branches are used in Git repositories because when working with a team it is important to be able
+to have seperate versions to work on without effecting a stable build. In addition to this, it's a good idea
+to seperate features until client approval is recieved so as to keep a proper version on hand.
+5. git log displays commit history, git status displays information about the working directory.
+6. git log Vehicle.h
+7. git log --grep="file"
+9. Integration vs Dictator and Lieutenant- Integration focuses on everyone making public changes in their own
+branch which can then be integrated by the integration manager in the central repository, while Dictator
+and Lieutenant relies on a central repository that everyone draws from and changes have to be made through
+the Lieutenant, which the Dictator has the final say in.
+10. Dictator and Lieutenants workflow is a great deal more organized than the centralized workflow, and
+with many individuals working on one project, would be the preferable way to go. Higher pool of individuals means
+higher chances for messups, and one doesn't want to have a broken program pushed to the central repository.
